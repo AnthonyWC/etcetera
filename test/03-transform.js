@@ -46,6 +46,15 @@ describe('transform', function()
 		});
 	});
 
+	it('returns a number for numbers that don\t contain periods', function()
+	{
+		transform({
+			foo: '123456123456123456123456'
+		}, 'app').must.eql({
+			foo: 123456123456123456123456
+		});
+	});
+
 	it('preserves all top-level keys', function()
 	{
 		var input = { foo: { one: '1', two: 2, 'one.app': 'one!!!11!!' } };
