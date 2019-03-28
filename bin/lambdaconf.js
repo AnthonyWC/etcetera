@@ -37,7 +37,7 @@ const
 	etcdjs    = require('etcdjs'),
 	fs        = require('fs'),
 	path      = require('path'),
-	objectify = require('etcd-result-objectify'),
+	objectify = require('@npmcorp/etcd-result-objectify'),
 	nunjucks  = require('nunjucks'),
 	hosts     = require('../lib/rc')(argv),
 	transform = require('../lib/transform.js')

@@ -10,7 +10,7 @@ var
 	fs        = require('fs'),
 	path      = require('path'),
 	etcdjs    = require('etcdjs'),
-	objectify = require('etcd-result-objectify'),
+	objectify = require('@npmcorp/etcd-result-objectify'),
 	nunjucks  = require('nunjucks'),
 	argv      = require('yargs')
 		.usage('configure the named application by filling out its template with data from etcd\n$0 [-d deploydir] [-g hostgroup] [-c template] appname')
