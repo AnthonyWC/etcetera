@@ -1,6 +1,10 @@
-# Change Log
+# Changelog
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+### [2.3.2](https://github.com/npm/etcetera/compare/v2.3.1...v2.3.2) (2019-07-11)
+
+
 
 <a name="2.2.1"></a>
 ## [2.2.1](https://github.com/npm/etcetera/compare/v2.2.0...v2.2.1) (2018-03-21)
