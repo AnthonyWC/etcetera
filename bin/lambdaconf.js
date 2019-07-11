@@ -34,7 +34,7 @@ const argv = require('yargs')
 
 const
 	chalk     = require('chalk'),
-	etcdjs    = require('etcdjs'),
+	etcdjs    = require('@npmcorp/etcdjs'),
 	fs        = require('fs'),
 	path      = require('path'),
 	objectify = require('@npmcorp/etcd-result-objectify'),

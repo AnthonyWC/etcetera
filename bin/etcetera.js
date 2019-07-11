@@ -9,7 +9,7 @@ var
 	chalk     = require('chalk'),
 	fs        = require('fs'),
 	path      = require('path'),
-	etcdjs    = require('etcdjs'),
+	etcdjs    = require('@npmcorp/etcdjs'),
 	objectify = require('@npmcorp/etcd-result-objectify'),
 	nunjucks  = require('nunjucks'),
 	argv      = require('yargs')

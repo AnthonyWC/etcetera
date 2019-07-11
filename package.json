@@ -14,9 +14,9 @@
   },
   "dependencies": {
     "@npmcorp/etcd-result-objectify": "^1.0.0",
+    "@npmcorp/etcdjs": "^2.4.3",
     "async": "^3.1.0",
     "chalk": "^2.4.2",
-    "etcdjs": "^2.4.2",
     "lodash.map": "~4.6.0",
     "nunjucks": "^3.2.0",
     "rc": "~1.2.8",
