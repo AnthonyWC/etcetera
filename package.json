@@ -32,8 +32,8 @@
     "must": "~0.13",
     "nyc": "~12.0.2",
     "sinon": "~6.0.1",
-    "standard-version": "^6.0.1",
-    "xo": "^0.24.0"
+    "standard": "^13.0.1",
+    "standard-version": "^6.0.1"
   },
   "directories": {
     "test": "test"
@@ -51,22 +51,12 @@
   },
   "scripts": {
     "coverage": "nyc report --reporter=text-lcov | coveralls",
-    "lint": "xo",
+    "lint": "standard --fix",
     "test": "nyc mocha -R spec test",
     "travis": "npm run lint && nyc mocha -R spec test",
     "release": "standard-version"
   },
-  "xo": {
-    "extends": "eslint-config-ceejbot",
-    "ignores": [
-      "public/**",
-      "lib/controllers/**",
-      "assets/**"
-    ],
-    "rules": {
-      "unicorn/prefer-starts-ends-with": 0,
-      "prefer-arrow-callback": 0,
-      "prefer-destructuring": 0
-    }
+  "standard": {
+    "env": [ "mocha" ]
   }
 }
