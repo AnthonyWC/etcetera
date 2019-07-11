@@ -14,26 +14,26 @@
   },
   "dependencies": {
     "@npmcorp/etcd-result-objectify": "^1.0.0",
-    "async": "~2.6.1",
-    "chalk": "~2.4.1",
+    "async": "^3.1.0",
+    "chalk": "^2.4.2",
     "etcdjs": "^2.4.2",
     "lodash.map": "~4.6.0",
-    "nunjucks": "~3.1.3",
+    "nunjucks": "^3.2.0",
     "rc": "~1.2.8",
     "shell-quote": "~1.6.1",
-    "toml-require": "~1.1.0",
+    "toml-require": "^1.2.0",
     "update-notifier": "~2.5.0",
     "yargs": "~11.0.0"
   },
   "devDependencies": {
-    "coveralls": "~3.0.1",
+    "coveralls": "^3.0.4",
     "eslint-config-ceejbot": "~1.1.2",
-    "mocha": "~5.2.0",
+    "mocha": "^6.1.4",
     "must": "~0.13",
     "nyc": "~12.0.2",
     "sinon": "~6.0.1",
-    "standard-version": "~4.4.0",
-    "xo": "^0.22.0"
+    "standard-version": "^6.0.1",
+    "xo": "^0.24.0"
   },
   "directories": {
     "test": "test"
