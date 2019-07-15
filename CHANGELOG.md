@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.3.5](https://github.com/npm/etcetera/compare/v2.3.4...v2.3.5) (2019-07-15)
+
+
+### Bug Fixes
+
+* update dependency ([d0088db](https://github.com/npm/etcetera/commit/d0088db))
+
+
+
 ### [2.3.4](https://github.com/npm/etcetera/compare/v2.3.3...v2.3.4) (2019-07-11)
 
 
