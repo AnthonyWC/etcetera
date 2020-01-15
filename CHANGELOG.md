@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.0.0](https://github.com/npm/etcetera/compare/v2.3.5...v3.0.0) (2020-01-15)
+
+
+### ⚠ BREAKING CHANGES
+
+* Dropped node 6 support
+
+* update dependency ([#191](https://github.com/npm/etcetera/issues/191)) ([8a2a564](https://github.com/npm/etcetera/commit/8a2a5645976fd4c546030702846ae990fa92b973))
+
 ### [2.3.5](https://github.com/npm/etcetera/compare/v2.3.4...v2.3.5) (2019-07-15)
 
 
