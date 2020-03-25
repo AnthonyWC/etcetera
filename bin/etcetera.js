@@ -40,6 +40,18 @@ var argv = require('yargs')
     description: 'etcd host to talk to (overrides `.renvrc`)',
     type: 'array'
   })
+  .option('e', {
+    alias: 'env',
+    description: 'etcdrc environment'
+  })
+  .option('u', {
+    alias: 'username',
+    description: 'etcd username'
+  })
+  .option('p', {
+    alias: 'password',
+    description: 'etcd password'
+  })
   .help('help')
   .demand(1)
   .argv

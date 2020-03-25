@@ -21,13 +21,17 @@ Configure the named application by filling out its template with data from etcd.
 ```
 etcetera [-d deploydir] [-g hostgroup] [-c template] appname
 Options:
+  --version        Show version number                                 [boolean]
   -d, --deploydir  full path to deploy directory
   -t, --template   configuration template file name
                                                  [default: "configuration.tmpl"]
   -g, --group      hostgroup, if there is one                      [default: ""]
   -s, --silent     do not log helpfully                                [boolean]
+  -h, --host       etcd host to talk to (overrides `.renvrc`)            [array]
+  -e, --env        etcdrc environment
+  -u, --username   etcd username
+  -p, --password   etcd password
   --help           Show help                                           [boolean]
-
 Examples:
   etcetera my-service
   etcetera -d /mnt/deploys/foozle my-service
